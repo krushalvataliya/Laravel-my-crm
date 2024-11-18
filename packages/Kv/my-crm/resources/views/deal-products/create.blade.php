@@ -1,0 +1,1 @@
+@include('my-crm::deal-products.partials.fields')

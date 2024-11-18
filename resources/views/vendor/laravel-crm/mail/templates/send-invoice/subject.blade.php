@@ -1,0 +1,1 @@
+Invoice {{ $invoice->invoice_id }} from {{ \Kv\MyCrm\Models\Setting::where('name', 'organisation_name')->first()->value }} for {{ $invoice->organisation->name  ?? null }} 
